@@ -386,8 +386,8 @@ if choose_os == 2:
 
 # Если у вас Android и используете Termux
 if choose_os == 3:
-    clear = lambda: os.system('clear') # очистка консоли
-    clear()
+    clear(chat) # очистка консоли
+    
     
     ban = [banner1, banner2] #рамдом баннер
     print(random.choice(ban))
