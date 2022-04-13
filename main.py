@@ -204,7 +204,7 @@ if choose_os == 2:
     print(devs)
     time.sleep(3.5)
 
-clear = lambda: os.system('clear') # очистка консоли
+    clear = lambda: os.system('clear') # очистка консоли
 clear()
 
 ###################################################
@@ -388,7 +388,7 @@ if choose_os == 3:
     print(devs)
     time.sleep(3.5)
 
-clear = lambda: os.system('clear') # очистка консоли
+    clear = lambda: os.system('clear') # очистка консоли
 clear()
 
 ###################################################
@@ -564,3 +564,4 @@ for chat in mesage:
     sys.stdout.write(chat)
     sys.stdout.flush()
     time.sleep(0.1)
+
