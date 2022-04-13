@@ -40,7 +40,7 @@ if choose_os == 1:
 ###################################################
 colors = random.choice(['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m'])
 time.sleep(0.03)
-mesage = (colors + 'Введите IP-адрес вашей цели: ').text)
+mesage = (colors + 'Введите IP-адрес вашей цели: ')
 for chat in mesage:
     sys.stdout.write(chat)
     sys.stdout.flush()
@@ -229,7 +229,7 @@ if choose_os == 2:
 ###################################################
 colors = random.choice(['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m'])
 time.sleep(0.03)
-mesage = (colors + 'Введите IP-адрес вашей цели: ').text)
+mesage = (colors + 'Введите IP-адрес вашей цели: ')
 for chat in mesage:
     sys.stdout.write(chat)
     sys.stdout.flush()
@@ -419,7 +419,7 @@ if choose_os == 3:
 ###################################################
 colors = random.choice(['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m'])
 time.sleep(0.03)
-mesage = (colors + 'Введите IP-адрес вашей цели: ').text)
+mesage = (colors + 'Введите IP-адрес вашей цели: ')
 for chat in mesage:
     sys.stdout.write(chat)
     sys.stdout.flush()
