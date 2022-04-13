@@ -39,11 +39,9 @@ Telegram #2 разработ4ка : @I_hacked_you666
 """
 
 # Цвета RGB
-rgb = random.choice(['\033[1;31m','\033[1;32m','\033[1;34m'])
-
-w = (rgb + 'OS Windows ')
-l = (rgb + 'OS Linux ')
-t = (rgb + 'Termux ')
+w = ('\033[1;31m' + 'OS Windows ')
+l = ('\033[1;32m' + 'OS Linux ')
+t = ('\033[1;34m' + 'Termux ')
 
 ban = [banner1, banner2] #рамдом баннер
 print(random.choice(ban))
