@@ -2,7 +2,7 @@
 2022 by _Team_X_Official_ & kriki
 Скрипт написан на основе ipapi.co
 """
-import sys, time, os, random, requests, subprocess
+import sys,time,os,random,requests,subprocess
 from requests import get
 
 #Рандом цвет
